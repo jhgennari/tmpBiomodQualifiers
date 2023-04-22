@@ -1,0 +1,11 @@
+# BioModels.net Qualifiers
+The qualification of an annotation is important to grasp the relation between a model component and the resource used to annotate it. The relationship is rarely one-to-one, and the information content of an annotation is greatly increased if one knows what it represents rather than to knowing only that it is "related to".
+
+There are two kinds of qualifiers used for different purposes:
+
+1. In the refinement of the relationship between an annotation resource and the modelling concept represented by a model element
+2. In the refinement of the relationship between an annotation resource and the biological object represented by a model element
+
+One can view the annotation of a model component as a statement in the form of a 'triple'. The resource used in the annotation is the 'object', while the qualifier is the 'predicate'. In the cases of the model qualifiers, the 'subject' of the relation is the modelling concept represented by the model component referenced by the annotation. The modelling concept may be the model itself, a mathematical construct, or a hypothesis that is proposed, changing the way we previously understood the model, etc. In the cases of the biology qualifiers, the 'subject' of the relation is the biological or biochemical object represented by the enclosing model element.
+
+In the following, the qualifiers of the first type are called **model qualifiers**. The associated namespace that should be used is 'http://biomodels.net/model-qualifiers/'. The qualifiers of the second type are called **biology qualifiers**. The associated namespace that should be used is 'http://biomodels.net/biology-qualifiers/'.
