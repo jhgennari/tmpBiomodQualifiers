@@ -28,10 +28,10 @@ The modelling object represented by the model element is derived from the modell
 ### isDescribedBy
 The modelling object represented by the model element is described by the subject of the referenced resource (modelling object B). This relation might be used to link a model or a kinetic law to the literature that describes it.
 
-### isInstanceOf, class
+### isInstanceOf
 The modelling object represented by the model element is an instance of the subject of the referenced resource (modelling object B). For instance, this qualifier might be used to link a specific model with its generic form.
 
-### hasInstance, instance
+### hasInstance
 The modelling object represented by the model element has for instance (is a class of) the subject of the referenced resource (modelling object B). For instance, this qualifier might be used to link a generic model with its specific forms.
 
 
@@ -81,6 +81,15 @@ The biological entity represented by the model element is physically limited to 
 
 ### hasTaxon
 The biological entity represented by the model element is taxonomically restricted, where the restriction is the subject of the referenced resource (biological entity B). This relation may be used to ascribe a species restriction to a biochemical reaction.
+
+### hasSource
+The biological entity (usually a reaction) has inputs (sources) as listed by the referenced resource. For reactions, these are the reactants. 
+
+### hasSink
+The biological entity (usually a reaction) has outputs (sinks) as listed by the referenced resource. For reactions, these are the products.
+
+### hasMediator
+The biological entity (usually a reaction) has mediators (e.g., enzymes) as listed by the reference resource. Mediators can inhibit as well as enable or enhance a reaction. 
 
 ### `deprecated` isRelatedTo
 The biological entity represented by the model element is somehow associated, directly or transitively, with the subject of the referenced resource (biological entity B). This qualifier may be used as a generic way to express any biological relationship.
