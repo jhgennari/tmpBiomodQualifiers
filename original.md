@@ -28,6 +28,11 @@ The modelling object represented by the model element is derived from the modell
 ### isDescribedBy, description
 The modelling object represented by the model element is described by the subject of the referenced resource (modelling object B). This relation might be used to link a model or a kinetic law to the literature that describes it.
 
+### isInstanceOf, class
+The modelling object represented by the model element is an instance of the subject of the referenced resource (modelling object B). For instance, this qualifier might be used to link a specific model with its generic form.
+
+### hasInstance, instance
+The modelling object represented by the model element has for instance (is a class of) the subject of the referenced resource (modelling object B). For instance, this qualifier might be used to link a generic model with its specific forms.
 
 ## biology qualifiers
 These kind of qualifiers define the relationship between a biological object represented by a model element and its annotation:
