@@ -47,10 +47,10 @@ The following is the list of the current qualifiers in the 'http://biomodels.net
 The biological entity represented by the model element has identity with the subject of the referenced resource (biological entity B). This relation might be used to link a reaction to its exact counterpart in a database, for instance.
 
 ### hasVersion
-The subject of the referenced resource (biological entity B) is a more specific version or or an instance of the biological entity represented by the model element. This relation may be used to represent an isoform or modified form of a biological entity.
+The biological entity represented by the model element is a more general version of the subject of the referenced resource (biological entity B). For example, this relation may be used to connect a generic form of a protein in a model to a species-specific version in Uniprot.
 
 ### isVersionOf
-The biological entity represented by the model element is a more specific version or an instance of the subject of the referenced resource (biological entity B). This relation may be used to represent, for example, the 'superclass' or 'parent' form of a particular biological entity.
+The biological entity represented by the model element is a more specific version or an instance of the subject of the referenced resource (biological entity B). This relation may be used to connect, for example, a specific process in the model to a generic process name in the Gene Ontology.
 
 ### isDescribedBy
 The biological entity represented by the model element is described by the subject of the referenced resource (biological entity B). This relation should be used, for instance, to link a species or a parameter to the literature that describes the concentration of that species or the value of that parameter.
