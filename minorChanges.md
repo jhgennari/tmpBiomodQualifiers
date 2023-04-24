@@ -83,10 +83,10 @@ The biological entity represented by the model element is physically limited to 
 The biological entity represented by the model element is taxonomically restricted, where the restriction is the subject of the referenced resource (biological entity B). This relation may be used to ascribe a species restriction to a biochemical reaction.
 
 ### hasSource
-The biological entity (usually a reaction) has inputs (sources) as listed by the referenced resource. For reactions, these are the reactants. 
+The biological process (e.g., a reaction) has inputs (sources) as listed by the referenced resource. For reactions, these are the reactants. 
 
 ### hasSink
-The biological entity (usually a reaction) has outputs (sinks) as listed by the referenced resource. For reactions, these are the products.
+The biological process (e.g., a reaction) has outputs (sinks) as listed by the referenced resource. For reactions, these are the products.
 
 ### hasMediator
 The biological entity (usually a reaction) has mediators (e.g., enzymes) as listed by the reference resource. Mediators can inhibit as well as enable or enhance a reaction. 
