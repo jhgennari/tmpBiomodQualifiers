@@ -89,7 +89,13 @@ The biological process (e.g., a reaction) has inputs (sources) as listed by the 
 The biological process (e.g., a reaction) has outputs (sinks) as listed by the referenced resource. For reactions, these are the products.
 
 ### hasMediator
-The biological entity (usually a reaction) has mediators (e.g., enzymes) as listed by the reference resource. Mediators can inhibit as well as enable or enhance a reaction. 
+The biological process (e.g., a reaction) has mediators (e.g., enzymes) as listed by the reference resource. Mediators can inhibit as well as enable or enhance a reaction. 
+
+### hasMultiplier
+An attribute of the link between an entity and a process, that indicates the stoichiometry of that relationship. For example, a "source" of a reaction may need three copies of some participant; thus, hasMultiplier would be three.
+
+### hasPhysicalEntity
+An attribute of the link between an entity and a process. "hasPhysicalEntity" connects this participation link to the physical entity description of the participant.
 
 ### `deprecated` isRelatedTo
 The biological entity represented by the model element is somehow associated, directly or transitively, with the subject of the referenced resource (biological entity B). This qualifier may be used as a generic way to express any biological relationship.
